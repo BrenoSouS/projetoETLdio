@@ -9,13 +9,13 @@ repositorio_df = pd.read_excel("Pasta.xlsx")
 
 Voluntario = repositorio_df["nome"].tolist()
 hobbie = repositorio_df["hobbie"] 
-materia_fav = repositorio_df["materia preferida"] is ["name"]
+materia_fav = repositorio_df["materia preferida"] 
 
 print(Voluntario)
 
 
 #   transformação
-openai_api_key = "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"
+openai_api_key = "SUA KEY OPENAI"
 openai.api_key = openai_api_key
 
 def gerador_mensagens(user):
